@@ -1,0 +1,13 @@
+1.SELECT title FROM movies;
+2.SELECT director FROM movies;
+3.SELECT title,director FROM movies;
+4.SELECT title,year FROM movies;
+5.SELECT * FROM movies;
+6.SELECT * FROM movies where id=6;
+7.SELECT * FROM movies where year between 2000 and 2010;
+8.SELECT * FROM movies where year not between 2000 and 2010;
+9.SELECT * FROM movies WHERE year limit 5;
+10.SELECT title FROM movies WHERE title LIKE "Toy Story%";
+11.SELECT title FROM movies WHERE director="John Lasseter";
+12.SELECT title FROM movies WHERE not director="John Lasseter";
+13.SELECT title FROM movies where title like "WALL-%";
